@@ -1,0 +1,1 @@
+# mvn-react-generate-cli
