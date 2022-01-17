@@ -1,0 +1,34 @@
+{
+  "name": "mvn-react-generate-cli",
+  "version": "1.0.3",
+  "description": "A CLI to generate template for our Reactjs boilerplate",
+  "main": "src/index.js",
+  "bin": {
+    "@hodong/mvn-react-gen": "bin/mvn-react-gen",
+    "mvn-react-gen": "bin/mvn-react-gen"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "mvn-react-generate-cli"
+  ],
+  "author": "hodong",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0",
+    "ncp": "^2.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/",
+    "docs"
+  ]
+}
